@@ -1,8 +1,20 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/portfolio/$1"
+      "source": "/css/(.*)",
+      "destination": "/portfolio/css/$1"
+    },
+    {
+      "source": "/js/(.*)",
+      "destination": "/portfolio/js/$1"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/portfolio/assets/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/portfolio/$1"
     }
   ]
 }
