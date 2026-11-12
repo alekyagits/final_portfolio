@@ -1,1 +1,4 @@
-{"buildCommand": "", "outputDirectory": "public", "public": true}
+{
+  "buildCommand": "",
+  "outputDirectory": "portfolio"
+}
