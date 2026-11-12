@@ -1,4 +1,8 @@
 {
-  "buildCommand": "",
-  "outputDirectory": "portfolio"
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/portfolio/$1"
+    }
+  ]
 }
